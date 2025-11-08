@@ -6,6 +6,9 @@ principal = 500000.0
 rate = 0.05
 payment = 2684.11
 total_paid = 0.0
+extra_pay = 1000.0
+
+
 
 while principal > 0:
     principal = principal + (rate/12)*principal - payment
